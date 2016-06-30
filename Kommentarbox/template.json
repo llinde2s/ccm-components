@@ -1,0 +1,93 @@
+{
+
+
+  "main": {
+    "tag": "div",
+    "class": "messages"
+  },
+
+  "message": {
+    "tag": "div",
+    "class": "message",
+    "inner": [
+      {
+        "tag": "div",
+        "class": "name",
+        "inner": "%name%"
+      },
+      {
+        "tag": "div",
+        "class": "text",
+        "inner": "%text%"
+      },
+      {
+        "tag": "div",
+        "class":"likes",
+        "inner":"&nbsp&nbsp&nbsp&nbspLikes: %likes%"
+      },
+      {
+        "tag": "div",
+        "class":"dislikes",
+        "inner":"Dislikes: %dislikes%"
+      },
+      {
+        "tag": "div",
+        "class":"rating",
+        "inner":"Rating: %rating%",
+        "style":"Color:%colorstyle%"
+      },
+
+      {
+        "tag": "button",
+        "class":"likebutton",
+        "inner":"+",
+        "onclick": "%clicklike%"
+      },
+      {
+        "tag": "button",
+        "class":"dislikebutton",
+        "inner":"-",
+        "onclick": "%clickdislike%"
+      }
+
+
+
+    ]
+  },
+
+
+
+  "input": {
+    "tag": "div",
+    "class": "new_message",
+    "inner": [
+      {
+        "tag": "div",
+        "class": "name"
+      },
+      {
+        "tag": "div",
+        "class": "text",
+        "inner": {
+          "tag": "form",
+          "inner": [
+            {
+              "tag": "input",
+              "class": "input",
+              "placeholder": "Enter message here..."
+            },
+            {
+              "tag": "input",
+              "class": "button",
+              "type": "submit",
+              "value": "Send"
+            }
+          ],
+          "onsubmit": "%onsubmit%"
+        }
+      }
+    ]
+  }
+
+
+}

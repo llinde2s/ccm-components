@@ -1,0 +1,15 @@
+{
+  "key": "test",
+  "messages": [
+    {
+      "text": "Hello, World!",
+      "name": "akless",
+      "rating": "5"
+    },
+    {
+      "text": "My second message.",
+      "name": "akless",
+      "rating": "2"
+    }
+  ]
+}

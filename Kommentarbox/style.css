@@ -1,0 +1,85 @@
+.ccm-KommentarBox > .messages {
+
+    display: table;
+    padding: 0.5em;
+    border-style:solid;
+    border-width:2px;
+    border-color:darkturquoise;
+    border-radius:15px;
+
+
+
+}
+
+.ccm-KommentarBox > .messages > div {
+
+   display: table-row;
+
+
+
+
+}
+
+.ccm-KommentarBox > .messages > div > div {
+
+    display: table-cell;
+
+
+}
+
+.ccm-KommentarBox > .messages > .message > .name:after {
+
+    content: ':';
+    padding-right: 0.5em;
+
+
+}
+
+
+
+.ccm-KommentarBox > .messages > .message > .name{
+    color:darkblue;
+}
+
+.ccm-KommentarBox > .messages > .message > .likes{
+     color: #005f00;
+     padding-right:5px;
+
+ }
+
+.ccm-KommentarBox > .messages > .message > .dislikes{
+    color: #cb0000;
+    padding-right:5px;
+    margin-right:10px;
+
+}
+
+.ccm-KommentarBox > .messages > .message > .rating{
+    /*color:blue;*/
+    padding-right:5px;
+
+}
+
+
+
+.ccm-KommentarBox > .messages > .message > .likebutton{
+    color:black;
+    border-radius: 5px;
+    margin-right:10px;
+    margin-left:10px;
+    border-color:lightgreen;
+    background:lightgreen;
+    font-size:15px;
+    cursor:pointer;
+}
+
+.ccm-KommentarBox > .messages > .message > .dislikebutton{
+    color:white;
+    border-radius: 5px;
+    margin-right:10px;
+    margin-left:10px;
+    border-color:red;
+    background:red;
+    font-size:15px;
+    cursor:pointer;
+}
